@@ -25,12 +25,7 @@ class ShoppingCart {
 
     async init() {
         try {
-            const response = await fetch('https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v=1728384889', {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                }
-            });
+            const response = await fetch('https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v=1728384889');
 
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
