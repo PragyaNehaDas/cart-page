@@ -12,3 +12,7 @@ Fully responsive design.
 Functional interactivity as described in the requirements.
 Optimized performance and clean code.
 Tested and debugged to ensure zero console errors.
+
+# Submission Details
+GitHub Repository Link: Repository
+Hosted Project Link: [Live Demo](https://cart-page-mfhu-c3tg0qf53-pragya-das-projects.vercel.app/)
